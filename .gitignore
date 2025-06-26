@@ -361,6 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
 /FTD_Asia_API/logs
 /FTD_Asia_API/TestResults
 /FTD_Asia_API/bin/Debug
