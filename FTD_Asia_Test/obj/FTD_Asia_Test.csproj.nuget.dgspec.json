@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Project\\Interview\\FTD_Asia_All_files\\FTD_Asia_Test\\FTD_Asia_Test.csproj": {}
+  },
+  "projects": {
+    "D:\\Project\\Interview\\FTD_Asia_All_files\\FTD_Asia_Test\\FTD_Asia_Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\Interview\\FTD_Asia_All_files\\FTD_Asia_Test\\FTD_Asia_Test.csproj",
+        "projectName": "FTD_Asia_Test",
+        "projectPath": "D:\\Project\\Interview\\FTD_Asia_All_files\\FTD_Asia_Test\\FTD_Asia_Test.csproj",
+        "packagesPath": "C:\\Users\\marcus.kok\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Interview\\FTD_Asia_All_files\\FTD_Asia_Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marcus.kok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\marcus.kok\\Downloads": {},
+          "http://172.16.20.241:11688/codeengines/nuget/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

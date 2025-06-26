@@ -1,0 +1,19 @@
+2025-06-25 19:24:02,440 INFO  FTD_Asia_Test.Middleware.LoggingMiddleware - Incoming request: POST /api/submittrxmessage
+Body:
+{
+  "partnerKey": "string",
+  "partnerRefNo": "string",
+  "partnerPassword": "string",
+  "totalAmount": 1,
+  "items": [
+    {
+      "partnerItemRef": "string",
+      "name": "string",
+      "qty": 5,
+      "unitPrice": 1
+    }
+  ],
+  "timestamp": "string",
+  "sig": "string"
+}
+2025-06-25 19:24:02,509 INFO  FTD_Asia_Test.Controllers.PartnerController - FTD_Asia_Test.Models.Request.PartnerRequest
