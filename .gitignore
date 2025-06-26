@@ -367,3 +367,6 @@ FodyWeavers.xsd
 /FTD_Asia_API/bin/Debug
 /FTD_Asia_API/bin/Release
 /FTD_Asia_API/obj/
+/FTD_Asia_UnitTest/bin/
+/FTD_Asia_UnitTest/obj/
+
