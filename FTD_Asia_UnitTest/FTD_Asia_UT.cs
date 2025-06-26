@@ -36,6 +36,15 @@ namespace FTD_Asia_Unit_Test
                 TotalAmount = 100000,
                 //Timestamp = DateTime.Now.ToString("yyyy-MM-dd'T'HH:mm:ss.fffffff'Z'"), to get timestamp
                 Timestamp = "2025-06-26T18:20:22.0000000Z",
+                Items = new List<ItemDetail>
+                {
+                    new ItemDetail{ 
+                        Name = "test1",
+                        PartnerItemRef = "FG-00001",
+                        Qty= 1,
+                        UnitPrice = 100000
+                    },
+                },
                 Sig = "ZDgwMTU5NjhiODYxYjBkMGFhY2M0ZDEyODIwOWEyMDM3YjMwNWZhMjRkMGIyYjJjNzUxNzgxZjczMjcyODhjOQ==",
             };
 
@@ -63,7 +72,7 @@ namespace FTD_Asia_Unit_Test
         }
 
         [TestMethod]
-        public void CheckTotalAmountIsValid()
+        public void CheckTimestampIsValid()
         {
             var partnerRepository = new PartnerRepository(_config);
             var validationService = new ValidationService(_config, partnerRepository);
@@ -73,7 +82,7 @@ namespace FTD_Asia_Unit_Test
         }
 
         [TestMethod]
-        public void CheckTimestampIsValid()
+        public void CheckTotalAmountIsValid()
         {
             var partnerRepository = new PartnerRepository(_config);
             var validationService = new ValidationService(_config, partnerRepository);

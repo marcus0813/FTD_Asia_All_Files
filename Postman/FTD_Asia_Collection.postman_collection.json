@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "f57d16c5-df8b-49b3-8931-8fcc9473690e",
+		"name": "FTD_Asia_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26213631"
+	},
+	"item": [
+		{
+			"name": "submittrxmessage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"PartnerKey\": \"FAKEPEOPLE\",\r\n    \"partnerrefno\": \"FG-00002\",\r\n    \"partnerpassword\": \"RkFLRVBBU1NXT1JENDU3OA==\",\r\n    \"totalamount\": 100000,\r\n    \"items\": [\r\n        {\r\n            \"partneritemref\": \"i-00001\",\r\n            \"name\": \"Pen\",\r\n            \"qty\": 1,\r\n            \"unitprice\": 100000\r\n        }      \r\n    ],\r\n    \"timestamp\": \"2025-06-26T18:20:22.0000000Z\",\r\n    \"sig\": \"ZDgwMTU5NjhiODYxYjBkMGFhY2M0ZDEyODIwOWEyMDM3YjMwNWZhMjRkMGIyYjJjNzUxNzgxZjczMjcyODhjOQ==\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}api/submittrxmessage",
+					"host": [
+						"{{local}}api"
+					],
+					"path": [
+						"submittrxmessage"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "local",
+			"value": "http://localhost:5221/",
+			"type": "string"
+		},
+		{
+			"key": "prod",
+			"value": "http://localhost:8080/",
+			"type": "string"
+		}
+	]
+}
