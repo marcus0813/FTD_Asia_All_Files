@@ -363,3 +363,6 @@ MigrationBackup/
 FodyWeavers.xsd
 /FTD_Asia_API/logs
 /FTD_Asia_API/TestResults
+/FTD_Asia_API/bin/Debug
+/FTD_Asia_API/bin/Release
+/FTD_Asia_API/obj/
