@@ -1,13 +1,13 @@
-using FTD_Asia_Test.Controllers;
+using FTD_Asia_API.Controllers;
 using log4net;
-using FTD_Asia_Test.Interface;
-using FTD_Asia_Test.Models.Request;
+using FTD_Asia_API.Interface;
+using FTD_Asia_API.Models.Request;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using FTD_Asia_Test.Services;
+using FTD_Asia_API.Services;
 using Moq;
 using Microsoft.Extensions.Configuration;
-using FTD_Asia_Test.Data;
-using FTD_Asia_Test.Entities;
+using FTD_Asia_API.Data;
+using FTD_Asia_API.Entities;
 using Newtonsoft.Json;
 
 namespace FTD_Asia_Unit_Test

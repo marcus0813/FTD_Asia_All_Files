@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FTD_Asia_Test\FTD_Asia_Test.csproj" />
+    <ProjectReference Include="..\FTD_Asia_API\FTD_Asia_API.csproj" />
   </ItemGroup>
 
 </Project>

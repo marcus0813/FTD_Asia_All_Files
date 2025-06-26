@@ -1021,7 +1021,7 @@
           }
         }
       },
-      "FTD_Asia_Test/1.0.0": {
+      "FTD_Asia_API/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -1031,10 +1031,10 @@
           "log4net": "3.1.0"
         },
         "compile": {
-          "bin/placeholder/FTD_Asia_Test.dll": {}
+          "bin/placeholder/FTD_Asia_API.dll": {}
         },
         "runtime": {
-          "bin/placeholder/FTD_Asia_Test.dll": {}
+          "bin/placeholder/FTD_Asia_API.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -3003,15 +3003,15 @@
         "version.txt"
       ]
     },
-    "FTD_Asia_Test/1.0.0": {
+    "FTD_Asia_API/1.0.0": {
       "type": "project",
-      "path": "../FTD_Asia_Test/FTD_Asia_Test.csproj",
-      "msbuildProject": "../FTD_Asia_Test/FTD_Asia_Test.csproj"
+      "path": "../FTD_Asia_API/FTD_Asia_API.csproj",
+      "msbuildProject": "../FTD_Asia_API/FTD_Asia_API.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "FTD_Asia_Test >= 1.0.0",
+      "FTD_Asia_API >= 1.0.0",
       "MSTest.TestAdapter >= 3.9.3",
       "MSTest.TestFramework >= 3.9.3",
       "Microsoft.NET.Test.Sdk >= 17.10.0",
@@ -3026,11 +3026,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Interview\\FTD_Asia_All_files\\FTD_Asia_UnitTest\\FTD_Asia_UnitTest.csproj",
+      "projectUniqueName": "D:\\Project\\Interview\\FTD_Asia_Files\\FTD_Asia_UnitTest\\FTD_Asia_UnitTest.csproj",
       "projectName": "FTD_Asia_UnitTest",
-      "projectPath": "D:\\Project\\Interview\\FTD_Asia_All_files\\FTD_Asia_UnitTest\\FTD_Asia_UnitTest.csproj",
+      "projectPath": "D:\\Project\\Interview\\FTD_Asia_Files\\FTD_Asia_UnitTest\\FTD_Asia_UnitTest.csproj",
       "packagesPath": "C:\\Users\\marcus.kok\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Interview\\FTD_Asia_All_files\\FTD_Asia_UnitTest\\obj\\",
+      "outputPath": "D:\\Project\\Interview\\FTD_Asia_Files\\FTD_Asia_UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marcus.kok\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3049,8 +3049,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Project\\Interview\\FTD_Asia_All_files\\FTD_Asia_Test\\FTD_Asia_Test.csproj": {
-              "projectPath": "D:\\Project\\Interview\\FTD_Asia_All_files\\FTD_Asia_Test\\FTD_Asia_Test.csproj"
+            "D:\\Project\\Interview\\FTD_Asia_Files\\FTD_Asia_API\\FTD_Asia_API.csproj": {
+              "projectPath": "D:\\Project\\Interview\\FTD_Asia_Files\\FTD_Asia_API\\FTD_Asia_API.csproj"
             }
           }
         }
